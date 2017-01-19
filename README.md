@@ -1,14 +1,16 @@
 # How to & practical experience
+
 A collection of how to's and practical experience with c++development and helpfull tools.
 
-## Organize your c++ Project
+## 1 Organize your c++ Project
 
-### Project structure
+### 1.1 Project structure
 
 My solution of project structure.
 
- 1. The following directory structure is under version management system
-&lt;project-name&gt;                           <── project home directory
+#### 1.1.1 The following directory structure is under version management system
+
+&lt;project-name&gt;                           <── project home directory  
  ├──CMakeLists.txt                       <── main cmake file
  ├──Doxyfile.in                          <── cmake config file (Doxyfile input). cmake generates output file named 'Doxyfile'
  ├──readme.md                            <── readme content
