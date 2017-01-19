@@ -1,5 +1,5 @@
-# how-to-and-practical-experience
-A collection of how to's and practical experience
+# How to & practical experience
+A collection of how to's and practical experience with c++development and helpfull tools.
 
 ## Organize your c++ Project
 
