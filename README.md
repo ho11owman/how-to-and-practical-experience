@@ -10,6 +10,7 @@ My solution of project structure.
 
 #### 1.1.1 The following directory structure is under version management system
 
+```sh
 &lt;project-name&gt;                           <── project home directory  
  ├──CMakeLists.txt                       <── main cmake file  
  ├──Doxyfile.in                          <── cmake config file (Doxyfile input). cmake generates output file named 'Doxyfile'  
@@ -23,6 +24,7 @@ My solution of project structure.
  ├──test                                 <── main test directory  
  │   └──...                              <── ... (in progress)  
  │  
+ ```
  2. Not under version management system (generated files and directories)
  │
  ├──Makefile                             <── from cmake generated Makefile
