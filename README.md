@@ -11,16 +11,16 @@ My solution of project structure.
 #### 1.1.1 The following directory structure is under version management system
 
 ```sh
-&lt;project-name&gt;                           <── project home directory  
+<project-name>                           <── project home directory  
  ├──CMakeLists.txt                       <── main cmake file  
  ├──Doxyfile.in                          <── cmake config file (Doxyfile input). cmake generates output file named 'Doxyfile'  
  ├──readme.md                            <── readme content  
  ├──include                              <── include directory, contains:  
- │   └──&lt;project-alias-name&gt;             <──  * subdirectory for this project and  
- │       ├──&lt;project-cfg-file&gt;.in        <──  * cmake config file (header input). cmake generates output file named '&lt;project-cfg-file&gt;'. This can also be in subdirectory, main there is one.  
- │       └──&lt;project-header-files&gt;       <──  * header files and possible subdirectories for this project (only for this project!)  
+ │   └──<project-alias-name>             <──  * subdirectory for this project and  
+ │       ├──<project-cfg-file>.in        <──  * cmake config file (header input). cmake generates output file named '<project-cfg-file>'. This can also be in subdirectory, main there is one.  
+ │       └──<project-header-files>       <──  * header files and possible subdirectories for this project (only for this project!)  
  ├──src                                  <── sorce directory, contains:  
- │   └──&lt;project-source-files&gt;           <──  * source files only for this project! (subdirectories are not necessary)  
+ │   └──<project-source-files>           <──  * source files only for this project! (subdirectories are not necessary)  
  ├──test                                 <── main test directory  
  │   └──...                              <── ... (in progress)  
  │  
