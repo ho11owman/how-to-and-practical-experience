@@ -25,14 +25,18 @@ My solution of project structure.
  │   └──...                              <── ... (in progress)  
  │  
  ```
- 2. Not under version management system (generated files and directories)
+ 
+ #### 1.1.2 Not under version management system (generated files and directories)
+ 
+ ```sh
  │
  ├──Makefile                             <── from cmake generated Makefile
  ├──build                                <── binary output directory
  │   ├──obj                              <── objects directory
- │   │   └──&lt;object-files&gt;               <── generated objects
+ │   │   └──<object-files>               <── generated objects
  │   └──out                              <── binary output directory (library or executable)
- │       └──&lt;pr&gt;&lt;project-alias-name&gt;&lt;po&gt; <── project result (pr - prefix, po - postfix)
+ │       └──<pr><project-alias-name><po> <── project result (pr - prefix, po - postfix)
  ├──doc                                  <── generated documents
  │   └──...                              <── ... (in progress)
  └──...                                  <── other generated files
+ ```
