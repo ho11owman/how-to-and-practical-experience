@@ -26,7 +26,7 @@ My solution of project structure.
  │  
  ```
  
- #### 1.1.2 Not under version management system (generated files and directories)
+ #### 1.1.2 Not under version management system (generated files and directories)  
  
  ```sh
  │
