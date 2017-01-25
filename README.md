@@ -21,12 +21,12 @@ Hier is my solution of project structure for **V**ersion **C**ontrol **S**ystem.
  ├──test                                 <── main test directory  
  │   └──...                              <── ... (in progress)  
  │  
- 
- ## GitHub Hallo Word Project
+
+## GitHub Hallo Word Project
  ***Step 1***
-  ```sh
- path/to/your/global/project/dir> mkdir <project/repository-name>
- path/to/your/global/project/dir> cd <project/repository-name>
+ ```sh
+ path/to/your/global/project/dir> mkdir <project-or-repository-name>
+ path/to/your/global/project/dir> cd <project-or-repository-name>
  ```
  ***Step 2***
  read the conten of [GitHub Hallo Word Project][1]
