@@ -6,9 +6,7 @@ A collection of how to's and practical experience with c++development and helpfu
 
 ### 1.1 Project structure
 
-My solution of project structure.
-
-#### 1.1.1 The following directory structure is under version management system
+My solution of project structure. The following directory structure is under version management system.
 
 ```sh
 <project-name>                           <── project home directory  
@@ -24,21 +22,6 @@ My solution of project structure.
  ├──test                                 <── main test directory  
  │   └──...                              <── ... (in progress)  
  │  
- ```
- 
- #### 1.1.2 Not under version management system (generated files and directories)  
- 
- ```sh
- │
- ├──Makefile                             <── from cmake generated Makefile
- ├──build                                <── binary output directory
- │   ├──obj                              <── objects directory
- │   │   └──<object-files>               <── generated objects
- │   └──out                              <── binary output directory (library or executable)
- │       └──<pr><project-alias-name><po> <── project result (pr - prefix, po - postfix)
- ├──doc                                  <── generated documents
- │   └──...                              <── ... (in progress)
- └──...                                  <── other generated files
  ```
  
  ## GitHub Hallo Word Project
