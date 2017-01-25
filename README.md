@@ -31,7 +31,7 @@ path/to/your/global/project/dir> mkdir <project-or-repository-name>
 path/to/your/global/project/dir> cd <project-or-repository-name>
 ```
 ***Step 2***
-read the conten of [GitHub Hallo Word Project][1]
+>read the conten of [GitHub Hallo Word Project][1]
 ***Step 3***
 ```sh
 path/to/your/global/project/dir> git clone git@github.com:<user-name>/<project-name>.git .
