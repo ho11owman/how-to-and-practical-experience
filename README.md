@@ -40,3 +40,21 @@ My solution of project structure.
  │   └──...                              <── ... (in progress)
  └──...                                  <── other generated files
  ```
+  
+ ## GitHub Hallo Word Project
+ ***Step 1***
+  ```sh
+ path/to/your/global/project/dir> mkdir <project/repository-name>
+ path/to/your/global/project/dir> cd <project/repository-name>
+ ```
+ ***Step 2***
+ read the conten of [GitHub Hallo Word Project][1]
+ ***Step 3***
+ ```sh
+ path/to/your/global/project/dir> git clone git@github.com:<user-name>/<project-name>.git .
+ ```
+ 
+ 
+ [1]: https://guides.github.com/activities/hello-world/
+ 
+ 
