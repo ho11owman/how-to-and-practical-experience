@@ -4,9 +4,9 @@ A collection of how to's and practical experience with c++development and helpfu
 
 ## 1 Organize your c++ Project
 
-### 1.1 Project structure
+### Project structure
 
-My solution of project structure. The following directory structure is under version management system.
+Hier is my solution of project structure for **V**ersion **C**ontrol **S**ystem.
 
 ```sh
 <project-name>                           <── project home directory  
