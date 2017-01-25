@@ -40,7 +40,7 @@ My solution of project structure.
  │   └──...                              <── ... (in progress)
  └──...                                  <── other generated files
  ```
-  
+ 
  ## GitHub Hallo Word Project
  ***Step 1***
   ```sh
