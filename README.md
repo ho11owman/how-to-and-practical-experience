@@ -77,6 +77,8 @@ This work takes `CMakeLists.txt` from this directory. The content of this direct
 
 This directory contains project relevant documentation from project it self and from dependensies.
 
+>**Note:** I'm not sure if the files in this directory should be under **VCS**.
+
 ***etc/***
 
 ```
@@ -85,15 +87,27 @@ This directory contains project relevant documentation from project it self and 
 │   └──...
 ```
 
-This directory contains [CMake][1] [input][6] files.
+This directory contains [CMake][1] [input][6] files and should be under **VCS**.
 
 ***include/***
 
+```
+├──include
+│   └──<project-alias>
+│       └──<header-or-subdirs>
+```
 
+`include` directory contains `<project-alias>` with possible subdirectories.  
+For example we have project named `The best idea` and we aliased it to `tbi`. The client of ouer library/project use it as folow.
 
-***src/***
+```
+#include "tbi/the_best.h"
+#include "tbi/idea.h"
+```
 
+***include/ & src/***
 
+Directories for header and source files. 
 
 ***test/***
 
