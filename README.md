@@ -9,9 +9,9 @@ A collection of how to's and practical experience with c++development and helpfu
 After reading several post abaut project structure, i have found my own solution for this "problem".  
 My goals are:
 
-**Project Home** directory must be everytime clean
-**Modularity**
-It should be possible to work ++offline++
+- **Project Home** directory must be everytime clean
+- **Modularity**
+- It should be possible to work ++offline++
 Hier is my solution of project structure for **V**ersion **C**ontrol **S**ystem.
 
 ```sh
