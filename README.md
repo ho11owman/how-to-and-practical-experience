@@ -14,7 +14,7 @@ My goals are:
 - **Modularity**
 - It should be possible to work **offline**
 
->**Note:** Of course, this should also be in the **V**ersion **C**ontrol **S**ystem.
+>**Note:** Of course, this should also be in the **V**ersion **C**ontrol **S**ystem (**VCS**).
   
 ```
 <project-root>                           <── project root directory
@@ -61,14 +61,19 @@ The `build/` directory contains all files generated using [CMake][1]. These are 
 ```
 ├──cmake
 │   ├──CMakeLists.txt
-│   └──<package-1>
-│       ├──Find<package-1>.cmake
-│       └──<package-1>Config.cmake
+│   ├──<package-1>
+│   │   ├──Find<package-1>.cmake
+│   │   ├──<package-1>Config.cmake
+│   │   └──...
+│   └──<package-n>
+│       └──...
 ```
 
-One of the many strengths of [CMake][1] is the Packaging System. This can try to [find][4] the package with help of `Find<package-1>.cmake` file or [configure][5] them with `<package-1>Config.cmake` and [more othe][3].
+One of the many strengths of [CMake][1] is the Packaging System. This can try to [find][4] the package with help of `Find<package-1>.cmake` file or [configure][5] them with `<package-1>Config.cmake` and [more othe][3].  
 
-This directory contains [CMake][1] relevant files like Modules, Config etc and another `CMakeLists.txt`
+This work takes `CMakeLists.txt` from this directory.
+
+>**Note:** The content of this directory is also under **VCS**.
 
 ***doc/***
 ***etc/***
@@ -103,6 +108,6 @@ path/to/your/global/project/dir> git clone git@github.com:<user-name>/<project-n
 [1]: https://cmake.org/
 [2]: https://git-scm.com/docs/gitignore
 [3]: https://cmake.org/cmake/help/v3.0/manual/cmake-packages.7.html
-[4]: https://cmake.org/cmake/help/v3.0/manual/cmake-developer.7.html#find-modules
+[4]: https://cmake.org/cmake/help/v3.0/manual/cmake-packages.7.html#find-module-packages
 [5]: https://cmake.org/cmake/help/v3.0/manual/cmake-packages.7.html#package-configuration-file
 [6]: https://guides.github.com/activities/hello-world/
