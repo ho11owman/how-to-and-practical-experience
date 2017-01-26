@@ -51,8 +51,10 @@ The `CMakeLists.txt`, in the `project-root` directory, is the **main** cmake fil
 The `build/` directory contains all files generated using [CMake][1]. These are [ignored][2] by the version management system.
 
 >**Note:** There are two ways to persuade the CMake to generate the files in that directory:
-> - run [CMake][1] in this directory `cd build && cmake ../`
-> - run [CMake][1] from `project-root` directory `bla`
+> - simple run [CMake][1] from this directory like this `cd build && cmake ../`
+> - or from `project-root` directory like this `cmake -H. -B./build/`
+> - -H - path to **main** `CMakeLists.txt`
+> - -B - path to run directory
 
 ***cmake/***
 ***doc/***
