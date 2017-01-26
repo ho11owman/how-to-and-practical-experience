@@ -100,7 +100,7 @@ This directory contains [CMake][1] [input][6] files and should be under **VCS**.
 `include` directory contains `<project-alias>` with possible subdirectories.  
 For example we have project named `The best idea` and we aliased it to `tbi`. The client of ouer library/project use it as folow.
 
-```
+```cpp
 #include "tbi/the_best.h"
 #include "tbi/idea.h"
 ```
