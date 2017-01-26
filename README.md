@@ -2,7 +2,7 @@
 
 A collection of how to's and practical experience with c++development and helpfull tools.
 
-## 1 Organize your c++ Project
+## Organize your c++ Project
 
 ### Project structure
 
@@ -37,6 +37,8 @@ My goals are:
  │   └──...                              <── ... (in progress)
  │
 ```
+
+#### Explanation
 
 ### GitHub Hallo Word Project
 ***Step 1***
