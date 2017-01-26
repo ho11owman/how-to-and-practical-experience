@@ -111,6 +111,8 @@ Directories for header and source files.
 
 ***test/***
 
+### Organize your CMakeLists.txt
+
 ### GitHub Hallo Word Project
 
 ***Step 1***
