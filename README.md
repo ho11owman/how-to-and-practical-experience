@@ -42,7 +42,7 @@ My goals are:
 
 ***CMakeLists.txt***
 
->**Note:** [CMake][1] is not only Makefile generator, but also a powerful tool for building, testing and packaging your software.
+>**Note:** [CMake][1] is not only Makefile generator, but also a powerful tool for building, testing and packaging your software. The 'CMakeLists.txt' contains instructions for cmake executable.
 
 The CMakeLists.txt, in the root directory from your project, is a **main** file that contains instructions for [CMake][1]. I have several CMakeLists.txts in my project structure and this **main** file triggers all other CMakeLists.txt files.
 
