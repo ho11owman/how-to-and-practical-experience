@@ -53,8 +53,8 @@ The `build/` directory contains all files generated using [CMake][1]. These are 
 >**Note:** There are two ways to persuade the CMake to generate the files in that directory:
 > - simple run [CMake][1] from this directory like this `cd build && cmake ../`
 > - or from `project-root` directory like this `cmake -H. -B./build/`
-> - -H - path to **main** `CMakeLists.txt`
-> - -B - path to run directory
+> : -H - path to **main** `CMakeLists.txt`
+> : -B - path to run directory
 
 ***cmake/***
 ***doc/***
