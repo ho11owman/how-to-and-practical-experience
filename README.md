@@ -16,7 +16,7 @@ My goals are:
 
 >**Note:** Of course, this should also be in the **V**ersion **C**ontrol **S**ystem.
   
-```sh
+```
 <project-root>                           <── project root directory
  ├──CMakeLists.txt                       <── main cmake file
  ├──build                                <── build directory for cmake
