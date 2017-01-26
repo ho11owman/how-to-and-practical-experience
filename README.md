@@ -17,7 +17,7 @@ My goals are:
 >**Note:** Of course, this should also be in the **V**ersion **C**ontrol **S**ystem.
   
 ```sh
-<project-name>                           <── project home directory
+<project-root>                           <── project root directory
  ├──CMakeLists.txt                       <── main cmake file
  ├──build                                <── build directory for cmake
  ├──cmake                                <── cmake config and more
@@ -44,7 +44,7 @@ My goals are:
 
 >**Note:** [CMake][1] is not only `Makefile` generator, but also a powerful tool for building, testing and packaging your software. The `CMakeLists.txt` contains instructions for cmake backend programm.
 
-The CMakeLists.txt, in the root directory from your project, is a **main** file that contains instructions for [CMake][1]. I have several CMakeLists.txts in my project structure and this **main** file triggers all other CMakeLists.txt files.
+The `CMakeLists.txt`, in the `project-root` directory, is the **main** cmake file for project. I have several `CMakeLists.txt`s in my project structure and this one triggers all other files.
 
 ***build/***
 ***cmake/***
