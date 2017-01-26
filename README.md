@@ -14,7 +14,7 @@ My goals are:
 - **Modularity**
 - It should be possible to work **offline**
 
->**Note**: Of course, this should also be in the **V**ersion **C**ontrol **S**ystem.
+>**Note:** Of course, this should also be in the **V**ersion **C**ontrol **S**ystem.
   
 ```sh
 <project-name>                           <── project home directory
@@ -40,6 +40,20 @@ My goals are:
 
 #### Explanation
 
+***CMakeLists.txt***
+
+>**Note:** [CMake][1] is not only Makefile generator, but also a powerful tool for building, testing and packaging your software.
+
+The CMakeLists.txt, in the root directory from your project, is a **main** file that contains instructions for [CMake][1]. I have several CMakeLists.txts in my project structure and this **main** file triggers all other CMakeLists.txt files.
+
+***build/***
+***cmake/***
+***doc/***
+***etc/***
+***include/***
+***src/***
+***test/***
+
 ### GitHub Hallo Word Project
 ***Step 1***
 ```sh
@@ -49,7 +63,7 @@ some/project/dir> cd <project-or-repository-name>
 
 
 ***Step 2***
->Read the conten of [GitHub Hallo Word Project][1].
+>Read the conten of [GitHub Hallo Word Project][2].
 
 
 ***Step 3***
@@ -64,4 +78,5 @@ path/to/your/global/project/dir> git clone git@github.com:<user-name>/<project-n
 
 
 
-[1]: https://guides.github.com/activities/hello-world/
+[1]: https://cmake.org/
+[2]: https://guides.github.com/activities/hello-world/
