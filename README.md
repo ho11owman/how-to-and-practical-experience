@@ -44,9 +44,12 @@ My goals are:
 
 >**Note:** [CMake][1] is not only `Makefile` generator, but also a powerful tool for building, testing and packaging your software. The `CMakeLists.txt` contains instructions for cmake backend programm.
 
-The `CMakeLists.txt`, in the `project-root` directory, is the **main** cmake file for project. I have several `CMakeLists.txt`s in my project structure and this one triggers all other files.
+The `CMakeLists.txt`, in the `project-root` directory, is the **main** cmake file for this project. I have several `CMakeLists.txt`s in my project structure and this one triggers all other files.
 
 ***build/***
+
+The `build` directory contains all files generated using [CMake][1]. These are [ignored][2] by the version management system.
+
 ***cmake/***
 ***doc/***
 ***etc/***
@@ -63,7 +66,7 @@ some/project/dir> cd <project-or-repository-name>
 
 
 ***Step 2***
->Read the conten of [GitHub Hallo Word Project][2].
+>Read the conten of [GitHub Hallo Word Project][3].
 
 
 ***Step 3***
@@ -79,4 +82,5 @@ path/to/your/global/project/dir> git clone git@github.com:<user-name>/<project-n
 
 
 [1]: https://cmake.org/
-[2]: https://guides.github.com/activities/hello-world/
+[2]: https://git-scm.com/docs/gitignore
+[3]: https://guides.github.com/activities/hello-world/
