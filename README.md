@@ -116,8 +116,8 @@ Directories for header and source files.
 ***Step 1***
 
 ```sh
-some/project/dir> mkdir the_best_idea
-some/project/dir> cd the_best_idea
+$ some/project/dir> mkdir the_best_idea
+$ some/project/dir> cd the_best_idea
 ```
 
 ***Step 2***
@@ -127,7 +127,7 @@ some/project/dir> cd the_best_idea
 ***Step 3***
 
 ```sh
-some/project/dir/the_best_idea> git clone git@github.com:<user-name>/<project-name>.git .
+$ some/project/dir/the_best_idea> git clone git@github.com:<user-name>/<project-name>.git .
 ```
 
 
