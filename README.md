@@ -27,7 +27,7 @@ My goals are:
  ├──doc                                  <── project relevant documentation
  │   └──...
  ├──etc                                  <── project relevant file's (build-/runtime)
- │   └──Doxyfile.in                      <── cmake config file (Doxyfile input). cmake generates output file named 'Doxyfile'
+ │   └──Doxyfile.in                      <── cmake config file (input)
  ├──readme.md                            <── readme content  
  ├──include                              <── include directory, contains:  
  │   └──<project-header-files>           <── header's (with subdirectories) only for this project
@@ -69,7 +69,7 @@ The `build/` directory contains all files generated using [CMake][1]. These are 
 │       └──...
 ```
 
->**Note:** One of the many strengths of [CMake][1] is the Packaging System. This can try to [find][4] the package with help of `Find<package-1>.cmake` file or [configure][5] them with `<package-1>Config.cmake` and [more othe][3].  
+>**Note:** One of the many strengths of [CMake][1] is the [Packaging System][3]. This can try to [find][4] the package with help of `Find<package-1>.cmake` file or [configure][5] them with `<package-1>Config.cmake` and more othe.  
 
 This work takes `CMakeLists.txt` from this directory. The content of this directory is also under **VCS**.
 
@@ -85,7 +85,7 @@ This directory contains project relevant documentation from project it self and 
 │   └──...
 ```
 
-
+This directory contains [CMake][1] [input][6] files.
 
 ***include/***
 
@@ -106,7 +106,7 @@ some/project/dir> cd <project-or-repository-name>
 
 
 ***Step 2***
->Read the conten of [GitHub Hallo Word Project][6].
+>Read the conten of [GitHub Hallo Word Project][7].
 
 
 ***Step 3***
@@ -126,4 +126,5 @@ path/to/your/global/project/dir> git clone git@github.com:<user-name>/<project-n
 [3]: https://cmake.org/cmake/help/v3.0/manual/cmake-packages.7.html
 [4]: https://cmake.org/cmake/help/v3.0/manual/cmake-packages.7.html#find-module-packages
 [5]: https://cmake.org/cmake/help/v3.0/manual/cmake-packages.7.html#package-configuration-file
-[6]: https://guides.github.com/activities/hello-world/
+[6]: https://cmake.org/cmake/help/v3.2/command/configure_file.html
+[7]: https://guides.github.com/activities/hello-world/
