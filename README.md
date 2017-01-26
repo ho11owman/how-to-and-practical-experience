@@ -13,7 +13,7 @@ Hier is my solution of project structure for **V**ersion **C**ontrol **S**ystem.
  ├──CMakeLists.txt                       <── main cmake file
  ├──build                                <── build directory for cmake
  ├──cmake                                <── cmake config and more
- │   ├──CMakeLists.txt                   <── this file take care of
+ │   ├──CMakeLists.txt                   <── this file take care of cmake packages
  │   └──<pkg-name>                       <── directory for specific package
  │       └──...                          <── cmake package file's
  ├──doc                                  <── project relevant documentation
