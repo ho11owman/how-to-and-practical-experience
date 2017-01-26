@@ -6,6 +6,7 @@ A collection of how to's and practical experience with c++development and helpfu
 
 ### Project structure
 
+After reading several post abaut project structure, i have found my own solution for this "problem".
 Hier is my solution of project structure for **V**ersion **C**ontrol **S**ystem.
 
 ```sh
