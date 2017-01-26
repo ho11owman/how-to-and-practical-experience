@@ -69,11 +69,9 @@ The `build/` directory contains all files generated using [CMake][1]. These are 
 │       └──...
 ```
 
-One of the many strengths of [CMake][1] is the Packaging System. This can try to [find][4] the package with help of `Find<package-1>.cmake` file or [configure][5] them with `<package-1>Config.cmake` and [more othe][3].  
+>**Note:** One of the many strengths of [CMake][1] is the Packaging System. This can try to [find][4] the package with help of `Find<package-1>.cmake` file or [configure][5] them with `<package-1>Config.cmake` and [more othe][3].  
 
-This work takes `CMakeLists.txt` from this directory.
-
->**Note:** The content of this directory is also under **VCS**.
+This work takes `CMakeLists.txt` from this directory. The content of this directory is also under **VCS**.
 
 ***doc/***
 
