@@ -57,6 +57,18 @@ The `build/` directory contains all files generated using [CMake][1]. These are 
 >  - -B - path to run directory
 
 ***cmake/***
+
+```
+├──cmake
+│   ├──CMakeLists.txt
+│   └──<package-1>
+│       ├──Find<package-1>.cmake
+```
+
+One of the many strengths of [CMake][1] is the Packaging System. This can [find][4], [configure][5] and [more othe][3].
+
+This directory contains [CMake][1] relevant files like Modules, Config etc and another `CMakeLists.txt`
+
 ***doc/***
 ***etc/***
 ***include/***
@@ -72,7 +84,7 @@ some/project/dir> cd <project-or-repository-name>
 
 
 ***Step 2***
->Read the conten of [GitHub Hallo Word Project][3].
+>Read the conten of [GitHub Hallo Word Project][6].
 
 
 ***Step 3***
@@ -89,4 +101,7 @@ path/to/your/global/project/dir> git clone git@github.com:<user-name>/<project-n
 
 [1]: https://cmake.org/
 [2]: https://git-scm.com/docs/gitignore
-[3]: https://guides.github.com/activities/hello-world/
+[3]: https://cmake.org/cmake/help/v3.0/manual/cmake-packages.7.html
+[4]: https://cmake.org/cmake/help/v3.0/manual/cmake-developer.7.html#find-modules
+[5]: https://cmake.org/cmake/help/v3.0/manual/cmake-packages.7.html#package-configuration-file
+[6]: https://guides.github.com/activities/hello-world/
