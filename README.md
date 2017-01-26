@@ -32,7 +32,7 @@ My goals are:
  ├──include                              <── include directory, contains:  
  │   └──<project-header-files>           <── header's (with subdirectories) only for this project
  ├──src                                  <── sorce directory, contains:
- │   └──<project-source-files>           <──  * source files only for this project! (subdirectories are not necessary)
+ │   └──<project-source-files>           <── source's (with subdirectories) only for this project
  ├──test                                 <── main test directory
  │   └──...                              <── ... (in progress)
  │
@@ -75,9 +75,15 @@ This work takes `CMakeLists.txt` from this directory. The content of this direct
 
 ***doc/***
 
-
+This directory contains project relevant documentation from project it self and from dependensies.
 
 ***etc/***
+
+```
+├──etc
+│   ├──Doxyfile.in
+│   └──...
+```
 
 
 
