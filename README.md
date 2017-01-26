@@ -11,8 +11,9 @@ My goals are:
 
 - **Project Home** directory must be everytime clean
 - **Modularity**
-- It should be possible to work ++offline++
-Hier is my solution of project structure for **V**ersion **C**ontrol **S**ystem.
+- It should be possible to work **offline**
+
+>**Note**: Of course, this should also be in the **V**ersion **C**ontrol **S**ystem.
 
 ```sh
 <project-name>                           <── project home directory
