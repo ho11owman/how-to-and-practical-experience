@@ -120,9 +120,9 @@ Directories for header and source files.
 ***Step 2***
 
 ```console
-$ some/project/dir> mkdir the_best_idea
-$ some/project/dir> cd the_best_idea
-$ some/project/dir/the_best_idea> git clone git@github.com:<user-name>/the_best_idea.git .
+some/project/dir> mkdir the_best_idea
+some/project/dir> cd the_best_idea
+some/project/dir/the_best_idea> git clone git@github.com:<user-name>/the_best_idea.git .
 ```
 
 
