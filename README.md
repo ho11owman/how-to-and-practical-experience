@@ -112,20 +112,22 @@ Directories for header and source files.
 ***test/***
 
 ### GitHub Hallo Word Project
+
 ***Step 1***
+
 ```sh
-some/project/dir> mkdir <project-or-repository-name>
-some/project/dir> cd <project-or-repository-name>
+some/project/dir> mkdir the_best_idea
+some/project/dir> cd the_best_idea
 ```
 
-
 ***Step 2***
+
 >Read the conten of [GitHub Hallo Word Project][7].
 
-
 ***Step 3***
+
 ```sh
-path/to/your/global/project/dir> git clone git@github.com:<user-name>/<project-name>.git .
+some/project/dir/the_best_idea> git clone git@github.com:<user-name>/<project-name>.git .
 ```
 
 
