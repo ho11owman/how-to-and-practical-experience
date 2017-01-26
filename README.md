@@ -115,19 +115,14 @@ Directories for header and source files.
 
 ***Step 1***
 
-```sh
-$ some/project/dir> mkdir the_best_idea
-$ some/project/dir> cd the_best_idea
-```
+>Read the conten of [GitHub Hallo Word Project][7].
 
 ***Step 2***
 
->Read the conten of [GitHub Hallo Word Project][7].
-
-***Step 3***
-
 ```sh
-$ some/project/dir/the_best_idea> git clone git@github.com:<user-name>/<project-name>.git .
+$ some/project/dir> mkdir the_best_idea
+$ some/project/dir> cd the_best_idea
+$ some/project/dir/the_best_idea> git clone git@github.com:<user-name>/the_best_idea.git .
 ```
 
 
