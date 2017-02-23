@@ -141,3 +141,5 @@ user@pc:/some/project/dir/the_best_idea> git clone git@github.com:<git-user-name
 [5]: https://cmake.org/cmake/help/v3.0/manual/cmake-packages.7.html#package-configuration-file
 [6]: https://cmake.org/cmake/help/v3.2/command/configure_file.html
 [7]: https://guides.github.com/activities/hello-world/
+
+
