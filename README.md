@@ -115,9 +115,11 @@ Directories for header and source files.
 
 ### GitHub Hallo Word Project
 
+>Usefull [GitHub Git Cheat Sheet][7],
+
 ***Step 1***
 
->Read the conten of [GitHub Hallo Word Project][7].
+>Read the conten of [GitHub Hallo Word Project][8].
 
 ***Step 2***
 
@@ -140,4 +142,5 @@ user@pc:/some/project/dir/the_best_idea> git clone git@github.com:<git-user-name
 [4]: https://cmake.org/cmake/help/v3.0/manual/cmake-packages.7.html#find-module-packages
 [5]: https://cmake.org/cmake/help/v3.0/manual/cmake-packages.7.html#package-configuration-file
 [6]: https://cmake.org/cmake/help/v3.2/command/configure_file.html
-[7]: https://guides.github.com/activities/hello-world/
+[7]: https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
+[8]: https://guides.github.com/activities/hello-world/
