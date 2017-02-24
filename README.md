@@ -144,3 +144,4 @@ user@pc:/some/project/dir/the_best_idea> git clone git@github.com:<git-user-name
 [6]: https://cmake.org/cmake/help/v3.2/command/configure_file.html
 [7]: https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
 [8]: https://guides.github.com/activities/hello-world/
+
