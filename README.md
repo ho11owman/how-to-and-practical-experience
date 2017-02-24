@@ -113,13 +113,15 @@ Directories for header and source files.
 
 ### Organize your CMakeLists.txt
 
-### GitHub Hallo Word Project
-
->Usefull [GitHub Git Cheat Sheet][7],
+### Git and GitHub
 
 ***Step 1***
 
->Read the conten of [GitHub Hallo Word Project][8].
+>First of all they need a project. Under [this link][8] you will find GitHub Hallo World Project.
+
+***Step 2***
+
+>Now you will need [SSH Key][9].
 
 ***Step 2***
 
@@ -128,6 +130,8 @@ user@pc:/some/project/dir> mkdir the_best_idea
 user@pc:/some/project/dir> cd the_best_idea
 user@pc:/some/project/dir/the_best_idea> git clone git@github.com:<git-user-name>/the_best_idea.git .
 ```
+
+>**Note:** Under [this link][7] you will find a brief description of the main git console commands.
 
 
 
@@ -144,4 +148,5 @@ user@pc:/some/project/dir/the_best_idea> git clone git@github.com:<git-user-name
 [6]: https://cmake.org/cmake/help/v3.2/command/configure_file.html
 [7]: https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
 [8]: https://guides.github.com/activities/hello-world/
+[9]: https://help.github.com/articles/connecting-to-github-with-ssh/
 
