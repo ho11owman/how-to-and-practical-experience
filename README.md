@@ -2,8 +2,8 @@
 
 A collection of how to's and practical experience with c++development and helpfull tools.  
 
-[Short How To about Git and GitHub][7]
-[Integrated Development Environment][8]
+[Short How To about Git and GitHub][7]  
+[Integrated Development Environment][8]  
 
 ## Organize your c++ Project
 
