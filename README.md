@@ -1,6 +1,8 @@
 # How to & practical experience
 
-A collection of how to's and practical experience with c++development and helpfull tools.
+A collection of how to's and practical experience with c++development and helpfull tools.  
+
+[Short How To about Git and GitHub](https://github.com/ho11owman/how-to-and-practical-experience/blob/master/Git.md)
 
 ## Organize your c++ Project
 
