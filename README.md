@@ -2,7 +2,7 @@
 
 A collection of how to's and practical experience with c++development and helpfull tools.  
 
-[Short How To about Git and GitHub](https://github.com/ho11owman/how-to-and-practical-experience/blob/master/Git.md)
+[Short How To about Git and GitHub][7]
 
 ## Organize your c++ Project
 
@@ -128,3 +128,4 @@ Directories for header and source files.
 [4]: https://cmake.org/cmake/help/v3.0/manual/cmake-packages.7.html#find-module-packages
 [5]: https://cmake.org/cmake/help/v3.0/manual/cmake-packages.7.html#package-configuration-file
 [6]: https://cmake.org/cmake/help/v3.2/command/configure_file.html
+[7]: https://github.com/ho11owman/how-to-and-practical-experience/blob/master/ShortHowToAboutGitAndGitHub.md
