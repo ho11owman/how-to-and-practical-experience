@@ -11,9 +11,12 @@ If you are new to GitHub, it is recommended to read the contents on the page lin
 
 Once the project has been created, you want to work locally on the project. You need an [SSH-Key][3] to push your changes back to the server. The Instructions how to do this you are find on [this Page][4].
 
+>**Note:** Under [this link][5] you will find a brief description of the main git console commands.
+
 
 
 [1]: https://guides.github.com/activities/hello-world/
 [2]: https://guides.github.com/
 [3]: https://de.wikipedia.org/wiki/Secure_Shell
 [4]: https://help.github.com/articles/connecting-to-github-with-ssh/
+[5]: https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
